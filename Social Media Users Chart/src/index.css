@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(223, 212, 212);
+}
+
+
+.app-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px #ffffff;
+}
+
+.app-area{
+    width: 100%;
+    display: flex;
+    position: relative;
+    padding: 35px;
+}
+
+.app-chart-item-wrapper{
+    position: absolute;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    transition: all 1s linear;
+
+}
+
+.app-chart-item{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    color: rgb(2, 2, 2);
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    border: 2.3px solid rgb(0, 0, 0);
+    text-shadow: 3px 3px 3px #ffe7e7;
+    border-radius: 5px;
+    height: 30px;
+    transition: all 1s linear;
+}
+
+.app-chart-text{
+    margin-left: 9px;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
