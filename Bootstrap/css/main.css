@@ -1,0 +1,9 @@
+#fakeimg{
+    width: 300px;
+    height: 300px;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: center;
+}
