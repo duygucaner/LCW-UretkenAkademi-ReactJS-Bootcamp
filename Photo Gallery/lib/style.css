@@ -1,0 +1,36 @@
+/* Add your styles here */
+
+body {
+  background-color: rgb(231, 233, 250);
+}
+
+
+h1 {
+  text-align: center;
+  font-family: Times New Roman ;
+  font-style: italic;
+  font-size: 32px;
+  text-shadow: 7px 7px 2px rgb(130, 153, 175);
+
+}
+.grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(4, 300px);
+  grid-gap: 60px 60px;
+}
+.grid-item {
+  width: 350px;
+
+}
+img {
+  width: 100%;
+  border-style: solid;
+  border-color: rgb(86, 116, 146);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  
+}
