@@ -1,0 +1,13 @@
+
+body{
+    background-image: url(./background.png);
+    background-size: cover;
+    user-select: none;
+}
+
+.app{
+    color: #362f5d;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    text-shadow: 3px 3px 3px #b0663e;
+}
