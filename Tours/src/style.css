@@ -1,0 +1,22 @@
+.single-tour:hover {
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgb(238, 238, 238);
+  margin: 2.5rem 0;
+  border-radius: 0.4em;
+}
+
+.delete-btn:hover {
+  background-color: red;
+  color: white;
+  transition: 0.7s;
+  border: 1px solid red;
+}
+
+.baslik {
+  color: white;
+  text-shadow:6px 6px rgb(0, 0, 0);
+}
+
+.readmore:focus {  
+   border: 10px white;
+}
