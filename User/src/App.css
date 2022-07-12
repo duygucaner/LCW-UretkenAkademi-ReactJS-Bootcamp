@@ -1,0 +1,20 @@
+table tbody tr{
+    background-color: rgb(129, 125, 182);
+    color: white;
+    text-align: center;
+    user-select: none;
+    transition: 0.5s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    text-shadow: 3px 3px 3px rgb(51, 45, 177);
+}
+
+table thead{
+    text-align: center;
+    background-color: rgb(96, 91, 179);
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+    text-shadow: 3px 3px 3px rgb(217, 215, 215);
+}       
